@@ -40,12 +40,12 @@
 		</td> 
 	  </table>
 	  <table>   
-	      <tr>    <td> ID </td>
-		         <td> Name </td>
+		 <tr		 <td> ID </td>
+		        	 <td> Name </td>
 				 <td> Description</td>
 				 <td> Price </td>
 				 <td colspan="2"> City </td>
-	      </tr>
+	      	</tr>
     	      <c:forEach var="obj" items="${allData}">
 		      <tr>
 		                 <td> <c:out value="${obj.id}"/> </td>
